@@ -8,9 +8,23 @@
 		<script src='lib/filament.js'></script>
 		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" media="all" /> 
 	</head>
-	<body style='background-color:#f3f6e1'>
-		<div style='font-size:25px;font-weight:bold;width:100%;text-align:center'>Web Indexing</div>
-		<canvas id='canvas' style='border:2px solid gray'></canvas>
+	<body>
+		<style type='text/css'>
+			body {
+				background-color:#f3f6e1;
+			}
+			canvas {
+				border:2px solid gray;
+			}
+			.title {
+				font-size:25px;
+				font-weight:bold;
+				width:100%;
+				text-align:center;
+			}
+		</style>
+		<div class='title'>Web Indexing</div>
+		<canvas id='canvas'></canvas>
 		<table>
 			<tr>
 				<td colspan='99'><hr /></td>
